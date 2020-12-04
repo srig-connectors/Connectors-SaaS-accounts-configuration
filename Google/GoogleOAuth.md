@@ -1,7 +1,7 @@
 ---
 title: "Setting up Google OAuth"
-metaTitle: "Setting up Google OAuth account in webMethods.io Integration Workflow"
-metaDescription: "Setting up Google OAuth account in webMethods.io Integration Workflow"
+metaTitle: "Setting up Google OAuth account | webMethods.io Integration Workflow"
+metaDescription: "Setting up Google OAuth account | webMethods.io Integration Workflow"
 ---
 
 This tutorial describes configuring an oauth account to google pubsub in webMethods.io Workflow
@@ -41,8 +41,8 @@ This tutorial describes configuring an oauth account to google pubsub in webMeth
 18. Click on gear icon on the connector and choose any predefined operation (Ex: listTopics) and click on "+" to add account<br/>
 ![PubSub](images/9.png)
 19. Fill in the Client Id, Client Secret obtained from Step 8 and Access Token ,Refresh Token  obtained from Step 14<br/>
-    Refresh URL:  https://www.googleapis.com/oauth2/v4/token
-    Grant_type :  refresh_token
+    Refresh URL:  https://www.googleapis.com/oauth2/v4/token <br/>
+    Grant_type :  refresh_token <br/>
 ![PubSub](images/10.png)
 20. Click on “Add” and Hit “Next” and pass the required inputs (In this case “listTopics” requires projectId to be passed)<br/>
 ![PubSub](images/11.png)
