@@ -21,7 +21,7 @@ This tutorial describes configuring an OAuth account to google pubsub in webMeth
 
 6.  Select the appropriate application type (In this case application type is **web application**) for your project and enter any
     additional information required<br/>
-7.  Select **Authorized redirect URI** and add the redirect URI as https://developers.google.com/oauthplayground and hit
+7.  Select **Authorized redirect URI's** and add the redirect URI as https://developers.google.com/oauthplayground and hit
     **Create**<br/>
 
 ![PubSub](images/2.png)<br/>
@@ -29,7 +29,7 @@ This tutorial describes configuring an OAuth account to google pubsub in webMeth
 8.  Note down the **Client Id** and **Client Secret** created<br/>
 9.  Open the browser and point the browser to [Google Oauth Playground](https://developers.google.com/oauthplayground)<br/>
 10. On the right corner of the page, click on gear icon and fill in OAuth Client ID and OAuth Client Secret generated
-    (from Step 8) and click on close<br/>
+    (from Step 8) and click on Close<br/>
 
 ![PubSub](images/3.png)<br/>
 
@@ -37,7 +37,7 @@ This tutorial describes configuring an OAuth account to google pubsub in webMeth
 
 ![PubSub](images/4.png)<br/>
 
-12. Hit on **Authorize API's**<br/>
+12. Hit on **Authorize APIs**<br/>
 
 ![PubSub](images/5.png)<br/>
 
@@ -51,11 +51,11 @@ This tutorial describes configuring an OAuth account to google pubsub in webMeth
 
 # Setting up Google OAuth account in webMethods.io Integration Workflow<br/>
 
-15. Login to **wM.io** Integration tenant and choose your project or click on **“+”** to create new project<br/>
+15. Login to **wM.io** Integration tenant and choose your project or click on **"+"** to create new project<br/>
 
 ![PubSub](images/c.png)<br/>
 
-16. Choose your workflow or click on **“+”** to create new workflow<br/>
+16. Choose your workflow or click on **"+"** to create new workflow<br/>
 
 ![PubSub](images/7.png)<br/>
 

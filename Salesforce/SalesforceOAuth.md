@@ -25,7 +25,7 @@ Steps
 
 ![Salesforce](images/1.png)<br/>
 
- 3. Search for “apps” in quick find box<br/>
+ 3. Search for **apps** in quick find box<br/>
 
 ![Salesforce](images/2.png)<br/>
 
@@ -43,19 +43,21 @@ Steps
 
 ![Salesforce](images/6.png)<br/>
 
- 8. Get authorization code using the url below in browser and “allow” the browser to login to your salesforce account<br/>
+ 8. Get authorization code using the url below in browser and **allow** the browser to login to your salesforce account<br/>
     https://ap16.salesforce.com/services/oauth2/authorize?client_id=<client_id> &redirect_uri=https://www.softwareag.com&<br/>
     response_type=code<br/>
     
     *Note :- Instance can be found from login url. Ex: ap15, ap16 etc.*<br/>
 
- 9. To get access token and refresh token use the below url in any REST client [POSTMAN](https://www.postman.com/downloads/)<br/>
-      Url    : https://ap16.salesforce.com/services/oauth2/token<br/>
-      Method : POST<br/>
-      Params : code, client_id, client_secret,redirect_uri and grant_type<br/>
-      Ex     : https://ap16.salesforce.com/services/oauth2/token?code=aPrx5xrKPFq2PGQVvFWARb6q3ZqTJaA%3D%3D&client_id=33AXP7P1Xg2UhM5WtAkS6FWoLnL27hKEnL_fBw8L5XxzU3gDuBGw_jbaBCQ_IRH7m4HPcWTh&client_secret=0FEA3069044194F115C8C2C24CD3F1DF24BB08F27043699A9AC67&redirect_uri=https://www.softwareag.com&grant_type=authorization_code<br/>
+ 9. To get access token and refresh token use the below url in any REST client <br/>
+      *Note :- POSTMAN REST client is used here. Link to download [POSTMAN](https://www.postman.com/downloads/).*<br/>
+     
+      Url     : https://ap16.salesforce.com/services/oauth2/token<br/>
+      Method  : POST<br/>
+      Params  : code, client_id, client_secret,redirect_uri and grant_type<br/>
+      Example : https://ap16.salesforce.com/services/oauth2/token?code=aPrx5xrKPFq2PGQVvFWARb6q3ZqTJaA%3D%3D&client_id=33AXP7P1Xg2UhM5WtAkS6FWoLnL27hKEnL_fBw8L5XxzU3gDuBGw_jbaBCQ_IRH7m4HPcWTh&client_secret=0FEA3069044194F115C8C2C24CD3F1DF24BB08F27043699A9AC67&redirect_uri=https://www.softwareag.com&grant_type=authorization_code<br/>
 
-![Salesforce](images/7.png)<br/>
+![Salesforce](images/r.png)<br/>
 
  ### Section 2. Set up an account in webMethods.io
 
@@ -82,16 +84,16 @@ Steps
 
 ![Salesforce](images/11.png)<br/>
 
- 16. Fill in details like Client Id, Client Secret, Access Token, Refresh Token obtained in previous steps<br/>  
+ 16. Fill in details like **Client Id**, **Client Secret**, **Access Token**, **Refresh Token** obtained in previous steps<br/>  
      (Step 7 & Step 9 respectively) and also Grant Type, Refresh URL, Server URL and Instance URL<br/>
      
      *NOTE:- Server URL is different for SOAP and REST services. SOAP connector is used here.*<br/>
 
-      Server URL     : https://ap16.salesforce.com/services/Soap/u/44.0 {SOAP}<br/> 
-      Server URL     : https://ap16.salesforce.com {REST}<br/> 
-      Grant Type     : refresh_token<br/> 
-      Refresh URL    : https://login.salesforce.com/services/oauth2/token<br/> 
-      Instance URL   : https://ap16.salesforce.com<br/> 
+      Server URL        : https://ap16.salesforce.com/services/Soap/u/44.0 {SOAP}<br/> 
+      Server URL        : https://ap16.salesforce.com {REST}<br/> 
+      Grant Type        : refresh_token<br/> 
+      Refresh URL       : https://login.salesforce.com/services/oauth2/token<br/> 
+      Instance URL      : https://ap16.salesforce.com<br/> 
 
 ![Salesforce](images/12.png)<br/> 
 
