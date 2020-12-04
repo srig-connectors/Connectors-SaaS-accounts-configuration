@@ -15,20 +15,21 @@ This tutorial describes configuring an OAuth account to google pubsub in webMeth
 
 3.  If the APIs & services page isn't already open, open the console left side menu and select **APIs & Services**<br/>
 4.  On the left, click **Credentials**<br/>
-5.  Click **+ Create Credentials**, then select OAuth client ID<br/>
+5.  Click **+ Create Credentials**, then select **OAuth client ID**<br/>
 
 ![Google PubSub](images/1.png)<br/>
 
 6.  Select the appropriate application type (In this case application type is **web application**) for your project and enter any
     additional information required<br/>
 7.  Select **Authorized redirect URI** and add the redirect URI as https://developers.google.com/oauthplayground and hit
-    **Create** the application<br/>
+    **Create**<br/>
 
 ![PubSub](images/2.png)<br/>
 
 8.  Note down the **Client Id** and **Client Secret** created<br/>
 9.  Open the browser and point the browser to [Google Oauth Playground](https://developers.google.com/oauthplayground)<br/>
-10. On the right corner of the page, click on gear icon and fill in OAuth Client ID and OAuth Client Secret and click on close<br/>
+10. On the right corner of the page, click on gear icon and fill in OAuth Client ID and OAuth Client Secret generated
+    (from Step 8) and click on close<br/>
 
 ![PubSub](images/3.png)<br/>
 
@@ -50,11 +51,14 @@ This tutorial describes configuring an OAuth account to google pubsub in webMeth
 
 # Setting up Google OAuth account in webMethods.io Integration Workflow<br/>
 
-15. Login to wM.io Integration tenant and choose your project or click on **“+”** to create new project<br/>
+15. Login to **wM.io** Integration tenant and choose your project or click on **“+”** to create new project<br/>
+
+![PubSub](images/c.png)<br/>
+
+16. Choose your workflow or click on **“+”** to create new workflow<br/>
 
 ![PubSub](images/7.png)<br/>
 
-16. choose your workflow or click on **“+”** to create new workflow<br/>
 17. From the right-hand panel of connectors list. Drag and drop a **Google Cloud PubSub Connector**<br/>
 
 ![PubSub](images/8.png)<br/>
@@ -63,7 +67,7 @@ This tutorial describes configuring an OAuth account to google pubsub in webMeth
 
 ![PubSub](images/9.png)<br/>
 
-19. Fill in the Client Id, Client Secret obtained from Step 8 and Access Token ,Refresh Token  obtained from Step 14<br/>
+19. Fill in the Client Id, Client Secret obtained from Step 8 and Access Token,Refresh Token  obtained from Step 14<br/>
     Refresh URL:  https://www.googleapis.com/oauth2/v4/token <br/>
     Grant_type :  refresh_token <br/>
 
