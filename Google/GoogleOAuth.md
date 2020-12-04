@@ -54,7 +54,7 @@ This tutorial describes configuring an OAuth account to google pubsub in webMeth
 
 ![PubSub](images/7.png)<br/>
 
-16. Select **Create New WorkFlow**
+16. choose your workflow or click on **“+”** to create new workflow<br/>
 17. From the right-hand panel of connectors list. Drag and drop a **Google Cloud PubSub Connector**<br/>
 
 ![PubSub](images/8.png)<br/>
