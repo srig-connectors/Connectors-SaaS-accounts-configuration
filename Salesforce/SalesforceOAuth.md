@@ -64,15 +64,16 @@ Steps
  Steps
 
  10. Login to **webMethods.io** Integration tenant<br/>
- 11. Create new project or choose an existing project if required<br/>
+ 11. Choose your project or click on **"+"** to create new project<br/>
 
 ![Salesforce](images/c.png)<br/>
 
- 12. Click on workflows tab and add new workflow<br/>
+ 12. Choose your workflow or click on **"+"** to create new workflow<br/>
 
 ![Salesforce](images/8.png)<br/>
  
- 13. Name your workflow and then Drag and drop Salesforce from the connector pallet and double click on Salesforce connector to    configure or hover over connector and click the settings icon<br/>
+ 13. Name your workflow and then Drag and drop **Salesforce CRM** from the connector pallet and double click on 
+     **Salesforce CRM**  connector to configure or hover over connector and click the settings icon<br/>
 
 ![Salesforce](images/9.png)<br/>
 
