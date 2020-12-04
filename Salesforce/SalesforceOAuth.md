@@ -55,7 +55,7 @@ Steps
  13. Name your workflow and then Drag and drop Salesforce from the connector pallet and double click on Salesforce connector to    configure or hover over connector and click the settings icon<br/>
 ![Salesforce](images/9.png)
  14. Select Action and for “Add Custom Action” option click on (+) add<br/>
-![Salesforce](Salesforce/images/10.png)
+![Salesforce](images/10.png)
  15. Choose existing account or to create new account click on (+) add button<br/>
 ![Salesforce](images/11.png)
  16. Fill in details like Client Id, Client Secret, Access Token, Refresh Token obtained in previous steps(Step 7 & Step 9<br/> respectively) and Grant Type, Refresh URL, Server URL and Instance URL<br/>
@@ -67,7 +67,7 @@ Steps
       Instance URL   : https://ap16.salesforce.com<br/> 
 ![Salesforce](images/12.png)<br/> 
 ![Salesforce](images/13.png)<br/> 
-* 17. Hit “Add” to save the connection<br/> 
+17. Hit “Add” to save the connection<br/> 
 
 
 
