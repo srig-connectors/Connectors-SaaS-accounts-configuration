@@ -63,7 +63,8 @@ This tutorial describes configuring an OAuth account to google pubsub in webMeth
 
 ![PubSub](images/8.png)<br/>
 
-18. Click on gear icon on the connector and choose any predefined operation (Example: listTopics) and click on **+** to add account<br/>
+18. Click on gear icon on the connector and choose any predefined operation (Example: listTopics) and click on **"+"** to 
+    add account<br/>
 
 ![PubSub](images/9.png)<br/>
 
