@@ -41,7 +41,7 @@ Section 2: Set up a Salesforce account in webMethods.io Integration tenant<br/>
 ![Salesforce](images/6.png)<br/>
 
  8. Get authorization code using the url below in browser and **allow** the browser to login to your salesforce account<br/>
-    **URL: ** https://ap16.salesforce.com/services/oauth2/authorize?client_id=<client_id> &redirect_uri=https://www.softwareag.com&<br/>
+    **URL:** https://ap16.salesforce.com/services/oauth2/authorize?client_id=<client_id> &redirect_uri=https://www.softwareag.com&<br/>
     response_type=code<br/>
     
     *Note :- Instance can be found from login url. Example: ap15, ap16 etc.*<br/>
