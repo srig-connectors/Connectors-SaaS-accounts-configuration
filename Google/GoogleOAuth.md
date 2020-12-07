@@ -1,8 +1,5 @@
----
-title: "Setting up Google OAuth"
-metaTitle: "Setting up Google OAuth account | webMethods.io Integration Workflow"
-metaDescription: "Setting up Google OAuth account | webMethods.io Integration Workflow"
----
+
+## ** Configuring Google OAuth account in webMethods.io Integration Workflow**
 
 This tutorial describes configuring an OAuth account to google pubsub in webMethods.io Workflow<br/>
 
