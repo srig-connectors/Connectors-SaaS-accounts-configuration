@@ -1,5 +1,5 @@
 
-## ** Configuring Google OAuth account in webMethods.io Integration Workflow**
+# Configuring Google OAuth account in webMethods.io Integration Workflow <br/>
 
 This tutorial describes configuring an OAuth account to google pubsub in webMethods.io Workflow<br/>
 
