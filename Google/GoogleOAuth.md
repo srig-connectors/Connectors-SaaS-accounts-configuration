@@ -10,7 +10,7 @@ This tutorial describes configuring an OAuth account to google pubsub in webMeth
 
 ![Google PubSub](images/21.png)<br/>
 
-3. To use **Google Cloud API**, user must enable an API for a project using console <br/>
+3. To use **Google Cloud API**, user must enable an **Google Cloud Pub/Sub API** for a project using console <br/>
 
     i. On the left, click on **Navigation Menu**<br/>
          
