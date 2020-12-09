@@ -8,7 +8,21 @@ This tutorial describes configuring an OAuth account to google pubsub in webMeth
 1.  Login to [Google Console](https://console.cloud.google.com) with the username and password<br/>
 2.  From the projects list, select a project from the dropdown or create a new one if required<br/>
 
-![Google PubSub](images/p.png)<br/>
+![Google PubSub](images/21.png)<br/>
+
+3. To use Google Cloud API, user must enable an API for a project using console <br/>
+    i. On the left, click on **Navigation Menu**<br/>
+         
+    ![Google PubSub](images/22.png)<br/>
+
+    ii. In the **API Library**, select the API and **enable** it.<br/>
+
+    ![Google PubSub](images/18.png)<br/>
+
+    ![Google PubSub](images/19.png)<br/>
+
+    ![Google PubSub](images/20.png)<br/>
+
 
 3.  If the APIs & services page isn't already open, open the console left side menu and select **APIs & Services**<br/>
 4.  On the left, click **Credentials**<br/>
@@ -18,10 +32,13 @@ This tutorial describes configuring an OAuth account to google pubsub in webMeth
 
 6.  Select the appropriate application type (In this case application type is **web application**) for your project and enter any
     additional information required<br/>
+
+![Google PubSub](images/23.png)<br/>
+
 7.  Select **Authorized redirect URI's** and add the redirect URI as https://developers.google.com/oauthplayground and hit
     **Create**<br/>
 
-![PubSub](images/2.png)<br/>
+![PubSub](images/24.png)<br/>
 
 8.  Note down the **Client Id** and **Client Secret** created<br/>
 9.  Open the browser and point the browser to [Google Oauth Playground](https://developers.google.com/oauthplayground)<br/>
@@ -44,13 +61,13 @@ This tutorial describes configuring an OAuth account to google pubsub in webMeth
 
 14. Note down **Access Token** and **Refresh Token**<br/>
 
-![PubSub](images/a.png)<br/>
+![PubSub](images/15.png)<br/>
 
 # Setting up Google OAuth account in webMethods.io Integration Workflow<br/>
 
 15. Login to **wM.io** Integration tenant and choose your project or click on **"+"** to create new project<br/>
 
-![PubSub](images/c.png)<br/>
+![PubSub](images/16.png)<br/>
 
 16. Choose your workflow or click on **"+"** to create new workflow<br/>
 
