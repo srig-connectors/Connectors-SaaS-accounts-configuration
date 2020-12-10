@@ -1,15 +1,15 @@
  
 # Setting up Salesforce OAuth account in webMethods.io Integration Workflow <br/>
 
-# Summary:
+## Summary:
    
 This article describes how to configure an OAuth account to Salesforce using webMethods.io Integration Workflow<br/> 
 
-# Prerequisites:
+## Pre-requisites:
 •	User must have working tenant of SaaS application, in this case Salesforce<br/> 
 •	Working webMethods.io Integration tenant<br/> 
 
-# Contents:
+## Contents:
 
 Section 1: Configure a SaaS application in Salesforce <br/> 
 Section 2: Set up a Salesforce account in webMethods.io Integration tenant<br/> 
@@ -18,6 +18,7 @@ Section 2: Set up a Salesforce account in webMethods.io Integration tenant<br/>
 **Steps**<br/>
 
  1. Login to [Salesforce.com](https://login.salesforce.com)<br/> 
+
  2. Click on account setup page and hit **switch to classic** and hit **setup**<br/>
 
 ![Salesforce](images/1.png)<br/>
@@ -27,6 +28,7 @@ Section 2: Set up a Salesforce account in webMethods.io Integration tenant<br/>
 ![Salesforce](images/2.png)<br/>
 
  4. Add new connected app, name the app and fill in all necessary details like app name, email, callback url and add all scopes<br/>
+
  5. Check in **Enable OAuth Settings** option<br/>
 
 ![Salesforce](images/3.png)<br/>
@@ -36,17 +38,20 @@ Section 2: Set up a Salesforce account in webMethods.io Integration tenant<br/>
 ![Salesforce](images/5.png)<br/>
 
  6. **Save** the application and click on **Next**. Allow the app for 10-20 mins for registration<br/>
+
  7. Note the **Client Id**(Consumer Key) and **Client Secret**(Consumer Secret) generated<br/>
 
 ![Salesforce](images/6.png)<br/>
 
  8. Get authorization code using the url below in browser and **allow** the browser to login to your salesforce account<br/>
+
     **URL:** https://ap16.salesforce.com/services/oauth2/authorize?client_id=<client_id> &redirect_uri=https://www.softwareag.com&<br/>
     response_type=code<br/>
     
     *Note :- Instance can be found from login url. Example: ap15, ap16 etc.*<br/>
 
  9. To get access token and refresh token use the below url in any REST client <br/>
+
       *Note :- POSTMAN REST client is used here. Link to download [POSTMAN](https://www.postman.com/downloads/).*<br/>
      
       Url     : https://ap16.salesforce.com/services/oauth2/token<br/>
@@ -61,6 +66,7 @@ Section 2: Set up a Salesforce account in webMethods.io Integration tenant<br/>
  **Steps**<br/>
 
  10. Login to **webMethods.io** Integration tenant<br/>
+ 
  11. Choose your project or click on **"+"** to create new project<br/>
 
 ![Salesforce](images/c.png)<br/>
