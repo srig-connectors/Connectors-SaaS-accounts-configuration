@@ -34,7 +34,7 @@ Section 2: Setting up a Google OAuth account in webMethods.io Integration tenant
 
 
     ![Google PubSub](images/19.png)<br/>
-    
+
 
     ![Google PubSub](images/20.png)<br/>
 
@@ -81,7 +81,7 @@ Section 2: Setting up a Google OAuth account in webMethods.io Integration tenant
 
 ![PubSub](images/15.png)<br/>
 
-# Section 2: Setting up Google OAuth account in webMethods.io Integration Workflow<br/>
+### Section 2: Setting up Google OAuth account in webMethods.io Integration Workflow<br/>
 
 16. Login to **wM.io** Integration tenant and choose your project or click on **"+"** to create new project<br/>
 
