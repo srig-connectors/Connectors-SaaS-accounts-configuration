@@ -14,7 +14,7 @@ This article describes configuring an OAuth account to google pubsub in webMetho
 Section 1: Configure a Google OAuth <br/> 
 Section 2: Setting up a Google OAuth account in webMethods.io Integration tenant<br/> 
 
-### Setting up Google OAuth 2.0<br/>
+### Section 1. Configure a Google OAuth <br/>
 
 1.  Login to [Google Console](https://console.cloud.google.com) with the username and password<br/>
 
@@ -32,7 +32,9 @@ Section 2: Setting up a Google OAuth account in webMethods.io Integration tenant
 
     ![Google PubSub](images/18.png)<br/>
 
+
     ![Google PubSub](images/19.png)<br/>
+    
 
     ![Google PubSub](images/20.png)<br/>
 
@@ -79,7 +81,7 @@ Section 2: Setting up a Google OAuth account in webMethods.io Integration tenant
 
 ![PubSub](images/15.png)<br/>
 
-# Setting up Google OAuth account in webMethods.io Integration Workflow<br/>
+# Section 2: Setting up Google OAuth account in webMethods.io Integration Workflow<br/>
 
 16. Login to **wM.io** Integration tenant and choose your project or click on **"+"** to create new project<br/>
 
@@ -112,6 +114,7 @@ Section 2: Setting up a Google OAuth account in webMethods.io Integration tenant
 22. Click on **Save** and **Run** the workflow<br/>
 
 ![PubSub](images/12.png)<br/>
+
 ![PubSub](images/13.png)<br/>
       
 
