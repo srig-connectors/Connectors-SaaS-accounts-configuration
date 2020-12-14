@@ -18,7 +18,7 @@ Section 2: Set up a **Salesforce** account in **webMethods.io Integration** tena
 
  1. Login to [Salesforce.com](https://login.salesforce.com) with username and password <br/>
 
-    *NOTE: Link to create new Developer Edition in Salesforce [SalesforceDeveloperEdition](https://developer.salesforce.com/signup)* <br/>
+    *Note: Link to create new Developer Edition in Salesforce [SalesforceDeveloperEdition](https://developer.salesforce.com/signup)* <br/>
 
  2. Click on account setup page and hit **switch to classic** and hit **setup**<br/>
 
