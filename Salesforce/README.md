@@ -68,7 +68,7 @@ Section 2: Set up a **Salesforce** account in **webMethods.io Integration** tena
  
  11. Choose your project or click on **"+"** to create new project<br/>
 
-![Salesforce](images/c.png)<br/>
+![Salesforce](images/14.png)<br/>
 
  12. Choose your workflow or click on **"+"** to create new workflow<br/>
 
