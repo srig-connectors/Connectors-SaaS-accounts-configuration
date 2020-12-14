@@ -3,11 +3,11 @@
 
 ## Summary:
 
-This article describes configuring an OAuth account to google pubsub in webMethods.io Workflow<br/>
+This article describes configuring an OAuth account to **Google Pub/Sub** in **webMethods.io Workflow**<*br/>
 
 ## Pre-requisites:
 •	User needs to have a Google account<br/> 
-•	Working webMethods.io Integration tenant<br/> 
+•	Working **webMethods.io Integration** tenant<br/> 
 
 ## Contents:
 
@@ -83,7 +83,7 @@ Section 2: Setting up a Google OAuth account in webMethods.io Integration tenant
 
 ### Section 2: Setting up Google OAuth account in webMethods.io Integration Workflow<br/>
 
-16. Login to **wM.io** Integration tenant and choose your project or click on **"+"** to create new project<br/>
+16. Login to **webMethods.io Integration** tenant and choose your project or click on **"+"** to create new project<br/>
 
 ![PubSub](images/16.png)<br/>
 
@@ -100,7 +100,7 @@ Section 2: Setting up a Google OAuth account in webMethods.io Integration tenant
 
 ![PubSub](images/9.png)<br/>
 
-20. Fill in the Client Id, Client Secret obtained from Step 8 and Access Token,Refresh Token  obtained from Step 14<br/>
+20. Fill in the **Client Id**, **Client Secret** obtained from Step 8 and **Access Token**,**Refresh Token**  obtained from Step 14<br/>
 
     Refresh URL:  https://www.googleapis.com/oauth2/v4/token <br/>
     Grant_type :  refresh_token <br/>

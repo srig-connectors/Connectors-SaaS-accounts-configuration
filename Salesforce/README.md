@@ -3,21 +3,22 @@
 
 ## Summary:
    
-This article describes how to configure an OAuth account to Salesforce using webMethods.io Integration Workflow<br/> 
+This article describes how to configure an OAuth account to **Salesforce** using **webMethods.io Integration** Workflow<br/> 
 
 ## Pre-requisites:
-•	User must have working tenant of SaaS application, in this case Salesforce<br/> 
-•	Working webMethods.io Integration tenant<br/> 
+•	User must have working tenant of SaaS application, in this case **Salesforce**<br/> 
+•	Working **webMethods.io Integration** tenant<br/> 
 
 ## Contents:
 
-Section 1: Configure a SaaS application in Salesforce <br/> 
-Section 2: Set up a Salesforce account in webMethods.io Integration tenant<br/> 
+Section 1: Configure a SaaS application in **Salesforce** <br/> 
+Section 2: Set up a **Salesforce** account in **webMethods.io Integration** tenant<br/> 
 
-### Section 1. Configure a SaaS application in Salesforce 
-**Steps**<br/>
+### Section 1. Configure a SaaS application in Salesforce <br/> 
 
- 1. Login to [Salesforce.com](https://login.salesforce.com)<br/> 
+ 1. Login to [Salesforce.com](https://login.salesforce.com) with username and password <br/>
+
+    *NOTE: Link to create new Developer Edition in Salesforce [SalesforceDeveloperEdition](https://developer.salesforce.com/signup)* <br/>
 
  2. Click on account setup page and hit **switch to classic** and hit **setup**<br/>
 
@@ -43,7 +44,7 @@ Section 2: Set up a Salesforce account in webMethods.io Integration tenant<br/>
 
 ![Salesforce](images/6.png)<br/>
 
- 8. Get authorization code using the url below in browser and **allow** the browser to login to your salesforce account<br/>
+ 8. Get authorization code using the url below in browser and **allow** the browser to login to your **Salesforce** account<br/>
 
     **URL:** https://ap16.salesforce.com/services/oauth2/authorize?client_id=<client_id> &redirect_uri=https://www.softwareag.com&<br/>
     response_type=code<br/>
@@ -61,9 +62,7 @@ Section 2: Set up a Salesforce account in webMethods.io Integration tenant<br/>
 
 ![Salesforce](images/r.png)<br/>
 
- ### Section 2. Set up an account in webMethods.io
-
- **Steps**<br/>
+ ### Section 2. Set up an account in webMethods.io <br/>
 
  10. Login to **webMethods.io** Integration tenant<br/>
  
