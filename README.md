@@ -1,6 +1,8 @@
-# connectors-SaaS-account-configuration examples
+# Connectors SaaS Accounts Configuration Examples
 
-This section contains examples about configuring the connections details for the various SaaS backends. All connectors have a connection and many operations. In the connection, you define the URL, provide the credentials needed to access an application’s API. Below examples contains step-by-step information about "How to setup the connection for the particular SaaS Backend". Each examples contains instructions along with the screen-shots, URLs & images that helps beginner webMethods.io developers to efficiently setup the connections. These examples along with explanations about the SaaS backends helps developers getting up to speed with webMethods.io.
+In the SaaS world, various SaaS applications a variety of authentication and authorization types(Credentials, OAuth flavors, Custom) to connect with the same.
+
+Here is the step by step guide to configure accounts for the most widely used SaaS applications in the market.
 
 * [Google](./Google)
 * [Salesforce](./Salesforce)
