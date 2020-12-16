@@ -1,4 +1,3 @@
- 
 # Setting up Salesforce OAuth account in webMethods.io Integration Workflow <br/>
 
 ## Summary:
@@ -20,6 +19,26 @@ Section 2: Set up a **Salesforce** account in **webMethods.io Integration** tena
 
     *Note: Link to create new Developer Edition in Salesforce [SalesforceDeveloperEdition](https://developer.salesforce.com/signup)* <br/>
 
+# Setting up Salesforce OAuth account in webMethods.io Integration Workflow <br/>
+
+# Summary:
+   
+This article describes how to configure an OAuth account to Salesforce using webMethods.io Integration Workflow<br/> 
+
+# Prerequisites:
+•	User must have working tenant of SaaS application, in this case Salesforce<br/> 
+•	Working webMethods.io Integration tenant<br/> 
+
+# Contents:
+
+Section 1: Configure a SaaS application in Salesforce <br/> 
+Section 2: Set up a Salesforce account in webMethods.io Integration tenant<br/> 
+
+### Section 1. Configure a SaaS application in Salesforce 
+**Steps**<br/>
+
+ 1. Login to [Salesforce.com](https://login.salesforce.com)<br/> 
+ 
  2. Click on account setup page and hit **switch to classic** and hit **setup**<br/>
 
 ![Salesforce](images/1.png)<br/>
@@ -29,7 +48,7 @@ Section 2: Set up a **Salesforce** account in **webMethods.io Integration** tena
 ![Salesforce](images/2.png)<br/>
 
  4. Add new connected app, name the app and fill in all necessary details like app name, email, callback url and add all scopes<br/>
-
+ 
  5. Check in **Enable OAuth Settings** option<br/>
 
 ![Salesforce](images/3.png)<br/>
@@ -44,8 +63,8 @@ Section 2: Set up a **Salesforce** account in **webMethods.io Integration** tena
 
 ![Salesforce](images/6.png)<br/>
 
- 8. Get authorization code using the url below in browser and **allow** the browser to login to your **Salesforce** account<br/>
-
+ 8. Get authorization code using the url below in browser and **allow** the browser to login to your salesforce account<br/>
+ 
     **URL:** https://ap16.salesforce.com/services/oauth2/authorize?client_id=<client_id> &redirect_uri=https://www.softwareag.com&<br/>
     response_type=code<br/>
     
@@ -103,6 +122,5 @@ Section 2: Set up a **Salesforce** account in **webMethods.io Integration** tena
 ![Salesforce](images/13.png)<br/> 
 
 17. Hit **Add** to save the connection<br/> 
-
 
 
