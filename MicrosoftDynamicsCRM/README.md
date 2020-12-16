@@ -19,7 +19,6 @@ Working webMethods.io Integration cloud tenant.
 
   1. Login to [Azure Portal](https://portal.azure.com/) (Use the same credentials as your dynamics CRM, if it asks you to sign up and set up a trial, you can do that)
   <br/>
-
   2. Once you have logged in, navigate to the option “Azure Active Directory” and click on “**App registration**”. <br/>
 
        ![\MicrosoftDynamicsCRM](images/1.png) <br/>
@@ -37,6 +36,7 @@ Working webMethods.io Integration cloud tenant.
        ![\MicrosoftDynamicsCRM](images/3.png) <br/>
 
   5. It will take a few seconds and create the application for you. Please note down the Application ID, you will need it when connecting to dynamics CRM using OAuth. <br/>
+
        ![\MicrosoftDynamicsCRM](images/4.png) <br/>
 
   6. Click on the View API Permission, it will show all the available permission. User can add more required permissions via clicking on “Add a permission” button. <br/>
@@ -79,11 +79,11 @@ Working webMethods.io Integration cloud tenant.
 
         grant_type: authorization_code <br/>
 
-        code: <the value obtained in Above steps> <br/>
+        code: [the value obtained in Above steps] <br/>
 
-        redirect_uri:  <Your AAD App uri> (In my case: https://www.softwareag.com/corporate/default.html) <br/>
+        redirect_uri:  [Your AAD App uri] (In my case: https://www.softwareag.com/corporate/default.html) <br/>
 
-        resource: that you want permission. <in case of Dynamics 365: https://<organisation>.crm.dynamics.com> <br/>
+        resource: that you want permission. [in case of Dynamics 365: https://<<organisation>>.crm.dynamics.com] <br/>
 
         client_secret: your app key will act as a secret. <br/>
 
