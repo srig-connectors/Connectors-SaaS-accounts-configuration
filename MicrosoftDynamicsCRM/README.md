@@ -19,6 +19,7 @@ Working webMethods.io Integration cloud tenant.
 
   1. Login to [Azure Portal](https://portal.azure.com/) (Use the same credentials as your dynamics CRM, if it asks you to sign up and set up a trial, you can do that)
   <br/>
+
   2. Once you have logged in, navigate to the option “Azure Active Directory” and click on “**App registration**”. <br/>
 
        ![\MicrosoftDynamicsCRM](images/1.png) <br/>
@@ -29,9 +30,9 @@ Working webMethods.io Integration cloud tenant.
 
   4. Add the Necessary information for the App, Like:- “Name”,” redirect URL” and click on Register. <br/>
     
-    Supported Account types:- User can choose from the options, based on the needs. For more information about the supported scopes click on “Help me choose…” <br/>
+     Supported Account types:- User can choose from the options, based on the needs. For more information about the supported scopes click on “Help me choose…” <br/>
 
-    In the URL field enter the URL using which you need to obtain the OAuth authentication token in response to the request from the URL (In my case I am going to use URL: https://www.softwareag.com/corporate/default.html). User can use any accessible URL for ex: http://www.google.com or any other. <br/>
+     In the URL field enter the URL using which you need to obtain the OAuth authentication token in response to the request from the URL (In my case I am going to use URL: https://www.softwareag.com/corporate/default.html). User can use any accessible URL for ex: http://www.google.com or any other. <br/>
 
        ![\MicrosoftDynamicsCRM](images/3.png) <br/>
 
