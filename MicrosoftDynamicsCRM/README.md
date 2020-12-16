@@ -62,7 +62,7 @@ Working webMethods.io Integration cloud tenant.
 
   10. Now We have done all the necessary settings, that we required to generate the Access_token. Now to generate the Access_token we will use "Postman" client. We need to authorize our app. For that, you need to send the request call on the browser with the below URL. once, you hit this URL in the browser, you will get the code. <br/>
 
-         https://login.microsoftonline.com/{TenantID}/oauth2/authorize?response_type=code&prompt=login&redirect_uri={App redirect uri}&client_id={App client id} <br/>
+         https://login.microsoftonline.com/{TenantID}/oauth2/authorize?response_type=code&prompt=login&redirect_uri={AppRedirectURI}&client_id={AppClientId} <br/>
 
   11. After getting the code, we need to generate the access token. Open the Postman client and follow the below steps. <br/>
 
