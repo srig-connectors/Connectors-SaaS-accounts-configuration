@@ -4,7 +4,7 @@ This section contains examples about configuring the connections details for the
 
 * [Google](./Google)
 * [Salesforce](./Salesforce)
-
+* [MicrosoftDynamicsCRM](./MicrosoftDynamicsCRM)
 
 _______________________________
 For more informations, please visit our TechFourams [TECHcommunity Forums](http://tech.forums.softwareag.com/techjforum/forums/list.page?product=integration-cloud)
