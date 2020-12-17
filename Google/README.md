@@ -11,7 +11,7 @@ This article describes configuring an OAuth account to **Google Pub/Sub** in **w
 
 ## Contents:
 
-Section 1: Configure a **Google** OAuth <br/> 
+Section 1: [Configure a **Google** OAuth](./Configure a **Google** OAuth) <br/> 
 Section 2: Setting up a **Google** OAuth account in **webMethods.io Integration** tenant<br/> 
 
 ### Section 1. Configure a Google OAuth <br/>
